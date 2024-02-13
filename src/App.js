@@ -79,11 +79,11 @@ const App= ()=> {
         {uniqueTitles?.map((uniqueTitle, index) => <li key ={index} onClick={ ()=> handleClick(uniqueTitle)}>{uniqueTitle}</li>)}
         </ul>
         <nav>
-          <p>Made by Rehan</p>
+          <p>Made by Rehan Hansaja</p>
         </nav>
       </section>
       <section className="main">
-      {!currentTitle && <h1>RehanGPT</h1>}
+      {!currentTitle && <h1>CloneGPT</h1>}
       <ul className="feed">
           {currentChat?.map((chatMessage,index) => <li key = {index}>
             <p className="role">{chatMessage.role}</p>

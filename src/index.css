@@ -106,7 +106,7 @@ input:focus{
 }
 
 .feed {
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 100%;
   padding: 0;
 }

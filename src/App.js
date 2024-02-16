@@ -68,7 +68,8 @@ const App= ()=> {
   console.log(previousChats)
 
   const currentChat = previousChats.filter(previousChat => previousChat.title === currentTitle)
-  const uniqueTitles= Array.from(new Set (previousChats.map(previousChat => previousChat.title)))
+  // const uniqueTitles= Array.from(new Set (previousChats.map(previousChat => previousChat.title)))
+  const uniqueTitles = Array.from(new Set(previousChats.map(previousChat => previousChat.title.split('\n')[0])));
   console.log(uniqueTitles)
 
   return (

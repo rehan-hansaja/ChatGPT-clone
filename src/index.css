@@ -114,7 +114,7 @@ input:focus{
 .feed li{
   display: flex;
   background-color: #444654;
-  width: 100%;
+  width: 95%;
   padding: 20px;
   margin: 20px 0;
 }

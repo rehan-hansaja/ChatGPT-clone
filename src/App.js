@@ -96,7 +96,7 @@ const App= ()=> {
           <input value={value} onChange={(e)=> setValue(e.target.value)}/>
               <div id="submit" onClick={getMessages}>➢</div>
           </div>
-            <p className="info">Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. ChatGPT September 25 Version</p>
+            <p className="info">A Clone Version of ChatGPT 3.5 in 2023. Free Research Preview. ChatGPT can make mistakes. Consider checking important information.</p>
         </div>
       </section>
     </div>

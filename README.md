@@ -1,4 +1,8 @@
 # ChatGPT-clone
-A clone of ChatGPT using the MERN stack and Open AI APIs.
 
-Create a .env file and upload your Open AI API Key to run the application.
+A clone version of ChatGPT 3.5 allows users to engage in natural language conversations with AI. Implemented features such as sending user messages to OpenAI's API and displaying AI-generated responses.
+
+### Technologies Used :
+React
+Node.js
+Open AI APIs
